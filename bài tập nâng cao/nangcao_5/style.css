@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/*khai báo biến*/
+:root {
+    --main-color: white ; 
+}
+
+
+.main{
+    margin: 0 auto;
+    width: 500px;
+
+    background-color: rgb(198, 210, 221);
+}
+
+.input {
+    display: flex;
+    height: auto;
+    justify-content: center;
+}
+
+.input_box {
+    padding: 15px;
+}
+
+.input_box input {
+    padding: 10px 20px;
+}
+.input_box select{
+    padding: 10px 50px
+}
+.text {
+    width: 90%;
+    height: 90px;
+    padding: 10px 20px;
+}
+
+.submit {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.submit > button {
+    width: 450px;
+    margin-top: 10px;
+    background-color: black;
+    color:var(--main-color) ;
+    padding: 8px 0;
+    margin-bottom: 15px;
+
+}
+
+.main > *:not(.submit) {
+    opacity: 50%;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai6</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .title {
+            text-align: center;
+            margin-top: 50px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 1rem;
+        }
+        .khoi{
+            margin: 0 auto;
+            border: solid 2px rgb(22, 88, 22) ;
+            width: 60px;
+            margin-top: 15px;
+        }
+        .choose{
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+        }
+        .choose > ul{
+            width: 70%;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            list-style: none;
+            opacity: 60%;
+            justify-content: space-around;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .box_main{
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            width: 1000px;
+            gap: 20px;
+            padding: 10px;
+
+        }
+        .box_main > div {
+            height: 200px;
+            padding: 10px;
+            background-color: greenyellow;
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white ; 
+            opacity: 70%;
+            font-weight: bold;
+        }
+        .text_choose:hover {
+
+            color: rgb(5, 139, 139);
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h1>
+            MY PORTFOLIO
+        </h1>
+        <div class="khoi">
+
+        </div>
+    </div>
+    <div class="choose">
+        <ul>
+            <li class="text_choose" >All</li>
+            <li class="text_choose">Web App</li>
+            <li class="text_choose">UI/UX</li>
+            <li class="text_choose">Graphics Design</li>
+            <li class="text_choose">Mobile App</li>
+            <li class="text_choose">Branding</li>
+            <li class="text_choose">Marketting</li>
+        </ul>
+    </div>
+    <div class="box_main">
+        <div class="box">Học Web Chuẩn</div>
+        <div class="box">Học Web Chuẩn</div>
+        <div class="box">Học Web Chuẩn</div>
+        <div class="box">Học Web Chuẩn</div>
+        <div class="box">Học Web Chuẩn</div>
+        <div class="box">Học Web Chuẩn</div>
+        <div class="box">Học Web Chuẩn</div>
+        <div class="box">Học Web Chuẩn</div>
+        <div class="box">Học Web Chuẩn</div>
+    </div>
+</body>
+</html>

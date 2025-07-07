@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.container {
+    margin: 0 auto;
+    width: fit-content; /*phải chừa nội dung để nó có thể căn giữa */
+    background-color: rgb(223, 209, 191);
+}
+
+.section_main {
+    padding: 20px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.logo {
+    font-size: 2em;
+    opacity: 0.8;
+}
+
+.contain {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(244, 172, 223);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.contain_2 {
+    width: 400px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin:10px 0 5px ;
+}
+
+.text_1 {
+    opacity: 0.5;
+    font-size: 0.8em;
+    margin-top: 14px;
+    width: 410px;
+}
+
+.br {
+    border: none;
+    margin: 22px 0 ;
+    border-top: 2px dotted #e55a44;
+      box-shadow: none;          /* xóa đổ bóng nếu có */
+    background: none;          /* xóa nền nếu có */
+}

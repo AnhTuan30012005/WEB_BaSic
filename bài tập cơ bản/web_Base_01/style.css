@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+header{
+    width: 660px;
+    height: auto;
+    margin: 15px auto;
+    display: flex;
+}
+
+.header_2{
+    margin-left: auto;
+}
+
+.LOGO{
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    color: white;
+    background-color: gray;
+    align-items: center;
+}

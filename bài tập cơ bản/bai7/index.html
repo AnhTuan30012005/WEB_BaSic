@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai7</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        .main{
+            margin: 15px; /*cái này tại sao không hoạt động*/
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 20px;
+            width: 1120px;
+            margin: 15 auto;
+        }
+        .box{
+            margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: space-around;
+            background-color: rgb(234, 231, 231);
+            padding: 8px;
+        }
+        .box_content > i {
+    
+            border: solid 2px #63E6BE;
+            width: 12%;
+            height: 40px;
+            display:flex;
+            margin: 15px auto;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            font-size: 2rem;
+            padding: 40px;
+        }
+        .box_content_p{
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin: 15px 0 ;
+        }
+        .box_content_pp {
+            opacity: 75%; 
+            font-size: 0.8rem;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box">
+            <div class="box_content" ><i class="fa-sharp fa-solid fa-pen-nib" style="color: #63E6BE;"></i></div>
+            <div class="box_content_p">UI/UX Design</div>
+            <div class="box_content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae architecto odio, perspiciatis adipisci
+                praesentium explicabo neque dicta aperiam labore recusandae autem reiciendis earum eaque eos quod
+                exercitationem alias voluptas fugiat?
+            </div>
+        </div>
+        <div class="box">
+            <div class="box_content"><i class="fa-solid fa-desktop" style="color: #63E6BE;"></i></div>
+            <div class="box_content_p">Web Development</div>
+            <div class="box_content_pp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eos unde consequatur
+                odit quos. Adipisci doloribus minima quidem repudiandae, molestiae recusandae vero ut accusantium, neque
+                sunt beatae mollitia magni labore.</div>
+        </div>
+        <div class="box">
+            <div class="box_content"><i class="fa-solid fa-briefcase" style="color: #63E6BE;"></i></div>
+            <div class="box_content_p">Branding</div>
+            <div class="box_content_pp">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores quae vitae
+                voluptates nam, voluptatem itaque provident similique ullam, repudiandae accusamus perspiciatis natus et
+                necessitatibus odio atque iusto optio tempore. Dolor!</div>
+        </div>
+        <div class="box">
+            <div class="box_content"><i class="fa-solid fa-camera-retro" style="color: #63E6BE;"></i></div>
+            <div class="box_content_p">Photography</div>
+            <div class="box_content_pp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, tempora? Nihil
+                accusamus, itaque nam et nobis necessitatibus ex voluptates. Placeat vero fugit magni eum qui doloremque
+                voluptatum dolorem architecto similique?</div>
+        </div>
+        <div class="box">
+            <div class="box_content"><i class="fa-brands fa-android" style="color: #63E6BE;"></i></div>
+            <div class="box_content_p">Apps Development</div>
+            <div class="box_content_pp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in nobis asperiores
+                nesciunt deleniti officiis, magnam voluptas atque laboriosam fugiat placeat accusantium modi molestiae
+                non nihil laborum iure, rem consequatur!</div>
+        </div>
+        <div class="box">
+            <div class="box_content"><i class="fa-solid fa-chart-simple" style="color: #63E6BE;"></i></div>
+            <div class="box_content_p">Digital Marketing</div>
+            <div class="box_content_pp">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat aperiam dolorem
+                adipisci cum ipsum nulla similique suscipit, voluptatibus aliquid ad repudiandae eum porro deleniti
+                autem eius quibusdam iure laudantium commodi!</div>
+        </div>
+    </div>
+</body>
+
+</html>

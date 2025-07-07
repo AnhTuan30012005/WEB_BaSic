@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 8 Header</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+
+        }
+
+        .header {
+            display: flex;
+            width: 1120px;
+            margin: 15px auto;
+        }
+
+        .header_2 {
+            margin-left: auto;
+        }
+
+        .header_1 {
+            display: flex;
+        }
+
+        .header_1 .box {
+            margin-right: 15px;
+            background-color: rgb(127, 202, 255);
+            padding: 20px 50px;
+            color: white;
+        }
+
+        .ul {
+            display: flex;
+            gap: 25px;
+            align-items: center;
+        }
+
+        .header_2 {
+            display: flex;
+            align-items: center;
+
+        }
+
+        .header_2>button {
+            background-color: white;
+            border: solid 1px rgb(193, 187, 187);
+            padding: 10px 20px;
+        }
+
+        .choose:hover {
+            padding: 10px;
+            border: 3px solid transparent;
+            border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+            border-image-slice: 1;
+            animation: rainbow 1s linear infinite;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .choose:hover::after {
+            transform: scaleX(1);
+        }
+
+        @keyframes rainbow {
+            0% {
+                border-image-source: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+            }
+
+            100% {
+                border-image-source: linear-gradient(405deg, violet, indigo, blue, green, yellow, orange, red);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header_1">
+            <div class="box">190 x 50</div>
+            <div class="ul">
+                <li class="choose">Home</li>
+                <li class="choose">Features</li>
+                <li class="choose">Domain</li>
+                <li class="choose">Hosting</li>
+                <li class="choose">Pricing</li>
+                <li class="choose">Testmonials</li>
+                <li class="choose">Contact</li>
+            </div>
+        </div>
+        <div class="header_2">
+            <button onclick="alert('Đã gửi!')">
+                <span>
+                    <i class="fa-sharp-duotone fa-solid fa-lock fa-flip-horizontal"
+                        style="--fa-primary-color: #63E6BE; --fa-secondary-color: #63E6BE;"></i>
+                </span>
+                <span>Customer Login</span>
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
